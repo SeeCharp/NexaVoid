@@ -1,0 +1,6 @@
+﻿services:
+  nexavoid-web:
+    image: nexavoid-web
+    build:
+      context: .
+      dockerfile: NexaVoid-Web/Dockerfile
