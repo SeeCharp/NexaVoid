@@ -4,3 +4,15 @@
     build:
       context: .
       dockerfile: NexaVoid-Web/Dockerfile
+
+  webapplication1:
+    image: webapplication1
+    build:
+      context: .
+      dockerfile: WebApplication1/Dockerfile
+
+  nexavoid-api:
+    image: nexavoid-api
+    build:
+      context: .
+      dockerfile: NexaVoid-API/Dockerfile
